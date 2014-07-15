@@ -1,0 +1,2 @@
+gcc -Wall -fPIC -I./ -c strfun.c 
+gcc -shared -o cmd.so strfun.o
